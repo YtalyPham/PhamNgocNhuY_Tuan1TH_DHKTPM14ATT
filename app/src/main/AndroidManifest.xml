@@ -9,22 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tuan1_Android">
-        <activity android:name=".Bai4">
-
-        </activity>
-        <activity android:name=".Bai3" >
-
-        </activity>
-        <activity android:name=".Bai2" >
+        <activity android:name=".Bai5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bai1">
+        <activity android:name=".Bai4">
 
         </activity>
+        <activity android:name=".Bai3"></activity>
+        <activity android:name=".Bai2"></activity>
+        <activity android:name=".Bai1"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
